@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: #000000;
+}
+
+header, nav, section, footer{
+    display: block;
+}
+
+#seite{
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+    background-color: #808080;
+    border-style: solid;
+    border-color: #808000;
+}
+
+header{
+    height: 120px;
+    position: relative;
+    background-color: #008000;
+}
+
+nav {
+    width: auto;
+    width: 150px;
+    margin-bottom: 25px;
+    float: left;
+    font-size: 15px;
+}
+
+    nav ul li {
+        float: none;
+    }
+
+    nav ul li ul {
+        position: relative;
+    }
+
+    nav ul {
+        padding: 0px;
+        margin: 0px;
+
+        border-right: 0px solid #DFDFDF;
+        border-bottom: 0px solid #DFDFDF;
+    }
+
+    nav ul:after {
+        clear: both;
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    nav ul,nav ul li{
+        background-color: #FFFFFF;
+    }
+
+    nav ul li {
+        list-style: none;
+        border-bottom: 1px solid #DFDFDF;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        display: block;
+        color: #333;
+        padding: 14px 34px 5px 34px;
+    }
+
+    nav ul li ul{
+        display: block;
+        padding: 0px;
+        border: none;
+        box-shadow: none;
+    }
+
+    nav ul li ul li{
+        float: none;
+        display: block;
+        border: none;
+    }
+
+    nav ul li ul li a {
+        padding-left: 44px;
+        color: #FAFAFA;
+    }
+
+    nav ul li ul li a:hover{
+        color: #333;
+        background-color: #DFDFDF !important;
+    }
+
+    nav ul li ul{
+        max-height: 0px;
+        overflow: hidden;
+    }
+
+    nav ul li:target > ul {
+        max-height: 1000px;
+    }
+
+    #menu-color{
+    background-color: #FF6800;
+    }
+
+    nav ul li#startseite:target a, nav ul li#startseite:target > ul li a{
+        background-color: #FF00FF;
+    }
+
+    nav ul li#witze:target a, nav ul li#witze:target > ul li a{
+        background-color: #8CB302;
+    }
+
+    nav ul li#gedichte:target a, nav ul li#gedichte:target > ul li a{
+        background-color: #008C74;
+    }
+
+    nav ul li#bilder:target a, nav ul li#bilder:target > ul li a{
+        background-color: #808000;
+    }
+
+    nav ul li:target > a {
+        color: #000000;
+    }
+
+section{
+    width: 700px;
+    background-color: #FF6800;
+    margin-bottom: 25px;
+    float: right;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFFF00;
+    clear: both;
+
+    margin-top: 25px;
+    height: 50px;
+    line-height: 35px;
+}
+
+    #fussbereich-daten {
+    margin: 0px;
+    padding: 0 0 20px 0;
+    margin-left: 520px;
+    }
+
+    #fussbereich-daten ul, #fussbereich-daten li{
+    	margin: 0;
+    	padding: 0;
+    	display: inline;
+    	list-style-type: none;
+    }
+
+    #fussbereich-daten a:link, #fussbereich-daten a:visited {
+    	line-height: 14px;
+    	font-weight: bold;
+    	margin: 0 10px 0 10px;
+    	text-decoration: none;
+    	color: #909090;
+    }
+
+    #fussbereich-daten a:hover, #fussbereich-daten a:hover#akt {
+    	padding-bottom: 2px;
+    	color: #000000;
+    	border-bottom: 4px solid #000000;
+    }
