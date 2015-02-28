@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>seite</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <meta name="generator" content="Webocton - Scriptly (www.scriptly.de)">
+
+        <script>
+            document.createElement ("header");
+            document.createElement ("nav");
+            document.createElement ("section");
+            document.createElement ("footer");
+        </script>
+
+    <link href="seite.css" type="text/css" rel="stylesheet">
+</head>
+
+    <body>
+
+        <div id="seite">
+
+            <header>
+                <p>kopf</p>
+            </header>
+
+            <nav>
+                <ul>
+                    <li id = "menu">
+                    <a href="#menu" id="menu-color">Men&uuml;</a></li>
+                </li>
+
+                <li id = "startseite">
+                    <a href="#startseite">Startseite</a></li>
+                </li>
+
+                <li id = "witze">
+                    <a href="#witze">Witze</a>
+                <ul>
+                    <li><a href="#">Blondinen Witze</a></li>
+                    <li><a href="#">M&auml;nner Witze</a></li>
+                    <li><a href="#">Bauern Witze</a></li>
+                    <li><a href="#">Porno Witze</a></li>
+                </ul>
+                </li>
+
+                <li id = "gedichte">
+                    <a href="#gedichte">Gedichte</a>
+                <ul>
+                    <li><a href="#">Witzeige Gedichte</a></li>
+                    <li><a href="#">Sch&ouml;ne Gedichte</a></li>
+                    <li><a href="#">Schwule Gedichte</a></li>
+                    <li><a href="#">Liebes Gedichte</a></li>
+                </ul>
+            </li>
+
+            <li id = "bilder">
+                <a href="#bilder">Bilder</a>
+                    <ul>
+                        <li><a href="#">Witzeige Bilder</a></li>
+                        <li><a href="#">Sch&ouml;ne Witze</a></li>
+                    </ul>
+                </li>
+            </nav>
+
+            <section>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>inhalt</p>
+                <p>die letzte zeile</p>
+            </section>
+
+            <footer>
+                <ul id="fussbereich-daten">
+                    <li>
+                        <a href="#" id="akt">Impressum</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontaktdaten</a>
+                    </li>
+                    <li>
+                        <a href="#">Datenschutz</a>
+                    </li>
+                </ul>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
